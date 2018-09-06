@@ -1,0 +1,6 @@
+target 'MoveImage-Swift' do
+use_frameworks!
+
+pod 'SDWebImage', '~> 4.3.3'
+
+end

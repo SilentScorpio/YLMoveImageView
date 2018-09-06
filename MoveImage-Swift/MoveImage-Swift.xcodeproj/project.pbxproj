@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3189A3382140C35B004AA3AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189A3372140C35B004AA3AE /* AppDelegate.swift */; };
+		3189A33A2140C35B004AA3AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189A3392140C35B004AA3AE /* ViewController.swift */; };
+		3189A33D2140C35B004AA3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3189A33B2140C35B004AA3AE /* Main.storyboard */; };
+		3189A33F2140C360004AA3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3189A33E2140C360004AA3AE /* Assets.xcassets */; };
+		3189A3422140C360004AA3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3189A3402140C360004AA3AE /* LaunchScreen.storyboard */; };
+		3189A34B2140C497004AA3AE /* YLMoveImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189A34A2140C497004AA3AE /* YLMoveImageView.swift */; };
+		3189A34D2140C9A9004AA3AE /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3189A34C2140C9A9004AA3AE /* SDWebImage.framework */; };
+		3189A34F2140D180004AA3AE /* dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3189A34E2140D180004AA3AE /* dog.jpeg */; };
+		43539E9180D62302FE4D8CA8 /* Pods_MoveImage_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A60498BB4C45CA0B3CDCCD1 /* Pods_MoveImage_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3189A3342140C35B004AA3AE /* MoveImage-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoveImage-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3189A3372140C35B004AA3AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3189A3392140C35B004AA3AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3189A33C2140C35B004AA3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3189A33E2140C360004AA3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3189A3412140C360004AA3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3189A3432140C360004AA3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3189A34A2140C497004AA3AE /* YLMoveImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLMoveImageView.swift; sourceTree = "<group>"; };
+		3189A34C2140C9A9004AA3AE /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3189A34E2140D180004AA3AE /* dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpeg; sourceTree = "<group>"; };
+		6A60498BB4C45CA0B3CDCCD1 /* Pods_MoveImage_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveImage_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9868AE7D119972D0D583EF36 /* Pods-MoveImage-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveImage-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoveImage-Swift/Pods-MoveImage-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		98EB7607137C54A612A879D7 /* Pods-MoveImage-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveImage-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoveImage-Swift/Pods-MoveImage-Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3189A3312140C35B004AA3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3189A34D2140C9A9004AA3AE /* SDWebImage.framework in Frameworks */,
+				43539E9180D62302FE4D8CA8 /* Pods_MoveImage_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3189A32B2140C35B004AA3AE = {
+			isa = PBXGroup;
+			children = (
+				3189A3362140C35B004AA3AE /* MoveImage-Swift */,
+				3189A3352140C35B004AA3AE /* Products */,
+				76228F509167EDBDAE4C46D0 /* Pods */,
+				4CED07F88A17206C47BD7FA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3189A3352140C35B004AA3AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3189A3342140C35B004AA3AE /* MoveImage-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3189A3362140C35B004AA3AE /* MoveImage-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				3189A3372140C35B004AA3AE /* AppDelegate.swift */,
+				3189A3392140C35B004AA3AE /* ViewController.swift */,
+				3189A3492140C40F004AA3AE /* MoveImage */,
+				3189A33B2140C35B004AA3AE /* Main.storyboard */,
+				3189A33E2140C360004AA3AE /* Assets.xcassets */,
+				3189A3402140C360004AA3AE /* LaunchScreen.storyboard */,
+				3189A3432140C360004AA3AE /* Info.plist */,
+			);
+			path = "MoveImage-Swift";
+			sourceTree = "<group>";
+		};
+		3189A3492140C40F004AA3AE /* MoveImage */ = {
+			isa = PBXGroup;
+			children = (
+				3189A34A2140C497004AA3AE /* YLMoveImageView.swift */,
+				3189A34E2140D180004AA3AE /* dog.jpeg */,
+			);
+			path = MoveImage;
+			sourceTree = "<group>";
+		};
+		4CED07F88A17206C47BD7FA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3189A34C2140C9A9004AA3AE /* SDWebImage.framework */,
+				6A60498BB4C45CA0B3CDCCD1 /* Pods_MoveImage_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76228F509167EDBDAE4C46D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9868AE7D119972D0D583EF36 /* Pods-MoveImage-Swift.debug.xcconfig */,
+				98EB7607137C54A612A879D7 /* Pods-MoveImage-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3189A3332140C35B004AA3AE /* MoveImage-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3189A3462140C360004AA3AE /* Build configuration list for PBXNativeTarget "MoveImage-Swift" */;
+			buildPhases = (
+				60FDF840A283FE7C7B8A685D /* [CP] Check Pods Manifest.lock */,
+				3189A3302140C35B004AA3AE /* Sources */,
+				3189A3312140C35B004AA3AE /* Frameworks */,
+				3189A3322140C35B004AA3AE /* Resources */,
+				6C2B7C187F53AD7FB1F6DCC8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MoveImage-Swift";
+			productName = "MoveImage-Swift";
+			productReference = 3189A3342140C35B004AA3AE /* MoveImage-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3189A32C2140C35B004AA3AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = WolfCub;
+				TargetAttributes = {
+					3189A3332140C35B004AA3AE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3189A32F2140C35B004AA3AE /* Build configuration list for PBXProject "MoveImage-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3189A32B2140C35B004AA3AE;
+			productRefGroup = 3189A3352140C35B004AA3AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3189A3332140C35B004AA3AE /* MoveImage-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3189A3322140C35B004AA3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3189A3422140C360004AA3AE /* LaunchScreen.storyboard in Resources */,
+				3189A33F2140C360004AA3AE /* Assets.xcassets in Resources */,
+				3189A34F2140D180004AA3AE /* dog.jpeg in Resources */,
+				3189A33D2140C35B004AA3AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60FDF840A283FE7C7B8A685D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoveImage-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C2B7C187F53AD7FB1F6DCC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoveImage-Swift/Pods-MoveImage-Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoveImage-Swift/Pods-MoveImage-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3189A3302140C35B004AA3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3189A33A2140C35B004AA3AE /* ViewController.swift in Sources */,
+				3189A3382140C35B004AA3AE /* AppDelegate.swift in Sources */,
+				3189A34B2140C497004AA3AE /* YLMoveImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3189A33B2140C35B004AA3AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3189A33C2140C35B004AA3AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3189A3402140C360004AA3AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3189A3412140C360004AA3AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3189A3442140C360004AA3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3189A3452140C360004AA3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3189A3472140C360004AA3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9868AE7D119972D0D583EF36 /* Pods-MoveImage-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MoveImage-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolfcub.MoveImage-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3189A3482140C360004AA3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EB7607137C54A612A879D7 /* Pods-MoveImage-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MoveImage-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolfcub.MoveImage-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3189A32F2140C35B004AA3AE /* Build configuration list for PBXProject "MoveImage-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3189A3442140C360004AA3AE /* Debug */,
+				3189A3452140C360004AA3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3189A3462140C360004AA3AE /* Build configuration list for PBXNativeTarget "MoveImage-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3189A3472140C360004AA3AE /* Debug */,
+				3189A3482140C360004AA3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3189A32C2140C35B004AA3AE /* Project object */;
+}
